@@ -1394,7 +1394,8 @@ body {
 }
 
 #header .header-nav-left .header-link {
-  padding-right: 16px
+  padding-right: 16px;
+  border-radius: 3px;
 }
 
 #header .header-nav-left #header-mobile-nav-button {
