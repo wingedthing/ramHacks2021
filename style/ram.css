@@ -1,9 +1,197 @@
 .ram-overlay {
   z-index: 2 !important;
-  background: rgba(255, 255, 255, .2);
+  background: rgba(195, 177, 177, 0.2);
+  border-radius: 10px;
   color: black;
   width: 100%;
   height: 78%;
   align-self: end;
   margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 2fr repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 6;
+  text-align: center;
+}
+
+.div1 p {
+  color: rgb(255, 254, 254);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ram-num {
+  color: rgb(255, 254, 254);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.ram-num-text {
+  color: rgb(2, 2, 2);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.div1 sub {
+  color: rgb(255, 254, 254);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.div2 {
+  grid-area: 2 / 2 / 3 / 3;
+  color: rgb(255, 254, 254);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.div3 {
+  grid-area: 2 / 3 / 3 / 4;
+  color: rgb(255, 254, 254);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.div4 {
+  grid-area: 2 / 4 / 3 / 5;
+  color: rgb(255, 254, 254);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.div5 {
+  grid-area: 3 / 2 / 4 / 3;
+  
+}
+
+.div6 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.div7 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+.div8 {
+  grid-area: 3 / 5 / 4 / 6;
+}
+
+.div9 {
+  grid-area: 3 / 1 / 6 / 2;
+}
+
+.div10 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.div11 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.div12 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+.div13 {
+  grid-area: 4 / 5 / 5 / 6;
+}
+
+.div14 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+.div15 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+
+.div16 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+
+.div17 {
+  grid-area: 5 / 5 / 6 / 6;
+}
+
+.car-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 2.5fr 1fr repeat(2, .5fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /* width: 100%; */
+  /* height: 100%; */
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.car-cards-div1 {
+  background-image: url("https://img2.carmax.com/img/vehicles/20809924/1_cleaned.jpg?width=800");
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  resize: both;
+  grid-area: 1 / 1 / 2 / 6;
+  text-align: right;
+  font-size: 1.5rem;
+  
+}
+
+.ford {
+  background-image: url("https://img2.carmax.com/img/vehicles/20912048/1_cleaned.jpg?width=800");
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  resize: both;
+  grid-area: 1 / 1 / 2 / 6;
+  text-align: right;
+  font-size: 1.5rem;
+  
+}
+
+.chevey {
+  background-image: url("https://img2.carmax.com/img/vehicles/20859937/1_cleaned.jpg?width=800");
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  resize: both;
+  grid-area: 1 / 1 / 2 / 6;
+  text-align: right;
+  font-size: 1.5rem;
+  
+}
+
+
+
+
+
+.car-cards-div2 {
+  text-align: center;
+  grid-area: 2 / 1 / 3 / 3;
+}
+.car-cards-div2 p{
+  color: rgb(17, 39, 243);
+  font-size: 1rem;
+  
+}
+.car-cards-div3 {
+  color: rgb(17, 39, 243);
+  font-size: 1rem;
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+.car-cards-div4 {
+  grid-area: 3 / 3 / 4 / 5;
+}
+
+.car-cards-div5 {
+  grid-area: 4 / 1 / 5 / 6;
+}
+
+.car-cards-div6 {
+  grid-area: 2 / 5 / 3 / 6;
 }
