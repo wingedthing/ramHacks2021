@@ -1,0 +1,8 @@
+.ram-overlay {
+  z-index: 2 !important;
+  background: rgba(255, 255, 255, .2);
+  color: black;
+  width: 100%;
+  height: 78%;
+  align-self: end;
+}
