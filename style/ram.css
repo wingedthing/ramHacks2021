@@ -35,6 +35,7 @@
   color: rgb(2, 2, 2);
   font-size: 1.5rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .div1 sub {
@@ -132,7 +133,7 @@
 .car-cards-div1 {
   background-image: url("https://img2.carmax.com/img/vehicles/20809924/1_cleaned.jpg?width=800");
   height: 250px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   resize: both;
   grid-area: 1 / 1 / 2 / 6;
@@ -144,7 +145,7 @@
 .ford {
   background-image: url("https://img2.carmax.com/img/vehicles/20912048/1_cleaned.jpg?width=800");
   height: 250px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   resize: both;
   grid-area: 1 / 1 / 2 / 6;
@@ -156,7 +157,7 @@
 .chevey {
   background-image: url("https://img2.carmax.com/img/vehicles/20859937/1_cleaned.jpg?width=800");
   height: 250px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   resize: both;
   grid-area: 1 / 1 / 2 / 6;
